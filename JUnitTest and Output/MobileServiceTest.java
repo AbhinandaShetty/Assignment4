@@ -50,7 +50,7 @@ class MobileServiceTest {
         verify(mobileRepository).save((Mobile) any());
     }
 
-    /
+    
     @Test
     void testGetMobile() {
         Mobile mobile = new Mobile();
